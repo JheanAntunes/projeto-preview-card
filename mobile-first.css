@@ -51,7 +51,7 @@ section.card-1{
     background-color: var(--Brightorange);
 }
 
-section.card-1 > article > h1{
+section.card-1 > article > h2{
     margin-top: 1em;
     font-family: var(--Big-Shoulders-Display-700);
     font-size: 2em;
@@ -86,7 +86,7 @@ section.card-2{
     background-color: var(--Darkcyan);
 }
 
-section.card-2 > article > h1{
+section.card-2 > article > h2{
     margin-top: 1em;
     font-family: var(--Big-Shoulders-Display-700);
     font-size: 2em;
@@ -121,7 +121,7 @@ section.card-3{
     background-color: var(--Verydarkcyan);
 }
 
-section.card-3 > article > h1{
+section.card-3 > article > h2{
     margin-top: 1em;
     font-family: var(--Big-Shoulders-Display-700);
     font-size: 2em;
