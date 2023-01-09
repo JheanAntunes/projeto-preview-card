@@ -1,0 +1,152 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    
+    /*Cores*/
+    --Brightorange: hsl(31, 77%, 52%); /*1*/
+    --Darkcyan: hsl(184, 100%, 22%);   /*2*/
+    --Verydarkcyan: hsl(179, 100%, 13%);/*3*/
+
+    --Transparent-white-paragraphs: hsla(0, 0%, 100%, 0.75);
+    --Verylightgray-background-headings-buttons: hsl(0, 0%, 95%);
+
+    /*Fontes*/
+    --Lexend-Deca-300:'Lexend Deca', sans-serif;
+    --Big-Shoulders-Display-700:'Big Shoulders Display', cursive;;
+}
+
+body{  background-color: var(--Verylightgray-background-headings-buttons);}
+
+div.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 1153px;
+    width: 320px;
+}
+
+section{
+    background-color: aqua;
+    height: 370px;
+    padding: 2.5em;
+}
+
+section.card-1{
+    background-color: var(--Brightorange);
+}
+
+section.card-1 > article > h1{
+    margin-top: 1em;
+    font-family: var(--Big-Shoulders-Display-700);
+    font-size: 2em;
+    color: white;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.384);
+}
+
+section.card-1 > article > p{
+    margin-top: 1em;
+    font-size: 15px;
+    color: var(--Transparent-white-paragraphs);
+    font-family: var(--Lexend-Deca-300);
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.384);
+    line-height: 21px;  
+}
+
+section.card-1 > article > div.botao{margin-top: 1.5em;}
+section.card-1 > article > div.botao > button{
+    border-radius: 30px;
+    padding: .8em 0em;
+    border: 1px solid var(--Verylightgray-background-headings-buttons);
+    background-color: aliceblue;
+    display: inline-block;
+    width: 62%;
+    color: var(--Brightorange);
+    font-family: var(--Lexend-Deca-300);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.311);
+}
+
+/*card-2*/
+section.card-2{
+    background-color: var(--Darkcyan);
+}
+
+section.card-2 > article > h1{
+    margin-top: 1em;
+    font-family: var(--Big-Shoulders-Display-700);
+    font-size: 2em;
+    color: white;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.384);
+}
+
+section.card-2 > article > p{
+    margin-top: 1em;
+    font-size: 15px;
+    color: var(--Transparent-white-paragraphs);
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.284);
+    font-family: var(--Lexend-Deca-300);
+    line-height: 21px;
+}
+
+section.card-2 > article > div.botao{margin-top: 1.5em;}
+section.card-2 > article > div.botao > button{
+    border-radius: 30px;
+    padding: .8em 0em;
+    border: 1px solid var(--Verylightgray-background-headings-buttons);
+    background-color: aliceblue;
+    display: inline-block;
+    width: 62%;
+    color: var(--Darkcyan);
+    font-family: var(--Lexend-Deca-300);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.311);
+}
+
+/*card-3*/
+section.card-3{
+    background-color: var(--Verydarkcyan);
+}
+
+section.card-3 > article > h1{
+    margin-top: 1em;
+    font-family: var(--Big-Shoulders-Display-700);
+    font-size: 2em;
+    color: white;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.384);
+}
+
+section.card-3 > article > p{
+    margin-top: 1em;
+    font-size: 15px;
+    color: var(--Transparent-white-paragraphs);
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.284);
+    font-family: var(--Lexend-Deca-300);
+    line-height: 21px;
+}
+
+section.card-3 > article > div.botao{margin-top: 1.5em;}
+section.card-3 > article > div.botao > button{
+    border-radius: 30px;
+    padding: .8em 0em;
+    border: 1px solid var(--Verylightgray-background-headings-buttons);
+    background-color: aliceblue;
+    display: inline-block;
+    width: 62%;
+    color: var(--Verydarkcyan);
+    font-family: var(--Lexend-Deca-300);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.311);
+}

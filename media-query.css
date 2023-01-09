@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+/* Typical device Breakpoints 
+Pequenas telas:  max-width 600px
+Celular: min-width 600px
+Tablet: 768px até 992px
+Desktop: min-width: 992px até 1200px
+Grandes telas: min-width: 1200px 
+*/
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+    main{
+        flex-direction: row;
+        height: auto;
+        width: 700px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    section{
+        height: auto;
+        width: 600px;
+    }
+
+    section.card-1 > article > div.botao{margin-top: 2.2em;}
+    section.card-2 > article > div.botao{margin-top: 3.5em;}
+    section.card-3 > article > div.botao{margin-top: 2.2em;}
+
+      /*Pseudoclasse*/
+      section.card-1 > article > div.botao > button:active{
+        background-color: hsl(31, 77%, 52%);
+        color: white;
+        cursor: pointer;
+    }
+
+    section.card-2 > article > div.botao > button:active{
+        background-color: hsl(184, 100%, 22%);
+        color: white;
+        cursor: pointer;
+    }
+
+    section.card-3 > article > div.botao > button:active{
+        background-color: hsl(179, 100%, 13%);
+        color: white;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 993px) {
+    main{
+        flex-direction: row;
+        height: auto;
+        width: 800px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    section{
+        height: auto;
+        width: 600px;
+    }
+
+    section.card-1 > article > div.botao{margin-top: 3.5em;}
+    section.card-2 > article > div.botao{margin-top: 3.5em;}
+    section.card-3 > article > div.botao{margin-top: 2.2em;}
+    
+    /*Pseudoclasse*/
+    section.card-1 > article > div.botao > button:active{
+        background-color: hsl(31, 77%, 52%);
+        color: white;
+        cursor: pointer;
+    }
+
+    section.card-2 > article > div.botao > button:active{
+        background-color: hsl(184, 100%, 22%);
+        color: white;
+        cursor: pointer;
+    }
+
+    section.card-3 > article > div.botao > button:active{
+        background-color: hsl(179, 100%, 13%);
+        color: white;
+        cursor: pointer;
+    }
+
+}
